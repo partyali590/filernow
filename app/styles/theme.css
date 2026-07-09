@@ -1,0 +1,44 @@
+@theme {
+
+    --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    --font-jakarta: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+    /* layout */
+    --container-width: 100%;
+    --container-inline-padding: 20px;
+
+    /* colors */
+    --color-primary-red: #bb061e;
+    --color-primary-light: #ffe9e6;
+    --color-secondary-blue: #091426;
+    --color-tertiary-gold: #eba941;
+
+    --color-text-primary: #091426;
+    --color-text-secondary: #575e69;
+    --color-text-tertiary: #0a121fe6;
+
+    --color-border-clr: #ebe2e0;
+
+    /* fonts */
+    --font-plus-jakarta: "Plus Jakarta Sans",
+        sans-serif;
+    --font-inter: "Inter",
+        sans-serif;
+
+    /* generic spacings */
+    --spacing-4: 16px;
+    --spacing-5: 20px;
+
+    /* generic radius */
+    --radius-card: 22px;
+
+    /* shadow */
+    --shadow-default: 0px 6px 24px -8px oklab(0.19 -0.00694593 -0.0393923 / 0.12);
+    --shadow-btn: 0 20px 60px -20px color-mix(in oklab, oklch(50% .2 25) 30%, transparent);
+    --shadow-hover: 0 20px 60px -20px color-mix(in oklab, var(--primary) 30%, transparent);
+
+    /* gradient */
+    --gradient-btn-primary: linear-gradient(135deg, oklch(0.5 0.2 25), oklch(0.6 0.22 30));
+
+    --gradient-bg-primary: linear-gradient(to right bottom, oklch(0.5 0.2 25) 0%, oklch(0.5 0.2 25) 50%, oklch(0.35 0.15 25) 100%);
+}

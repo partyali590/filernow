@@ -1,0 +1,27 @@
+@utility container-x-padding {
+    padding-inline: var(--container-inline-padding)
+}
+
+@utility container-custom {
+    width: 100%;
+    max-width: 100%;
+    margin-inline: auto;
+}
+
+@utility bg-gradient-btn {
+    background-image: var(--gradient-btn-primary);
+}
+
+@utility bg-gradient-bg {
+    background-image: var(--gradient-bg-primary);
+}
+
+@utility default-card {
+    background-color: white;
+    border: 1px solid var(--color-border-clr);
+    border-radius: var(--radius-card);
+}
+
+@utility default-transition {
+    transition: all 0.3s ease-out;
+}
